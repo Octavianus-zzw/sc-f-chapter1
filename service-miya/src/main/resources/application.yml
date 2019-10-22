@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: service-miya
+  zipkin:
+    base-url: http://localhost:9411
+server:
+  port: 9502
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka/
